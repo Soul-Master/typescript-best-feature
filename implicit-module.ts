@@ -1,0 +1,1 @@
+thisTypeFunction.apply({ name: 'foo' });
