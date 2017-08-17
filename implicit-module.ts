@@ -1,1 +1,1 @@
-thisTypeFunction.apply({ name: 'foo' });
+fooFunction.apply({ name: 'foo' });

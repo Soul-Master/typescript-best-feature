@@ -9,9 +9,7 @@ export interface Circle {
     radius: number;
 }
 
-type Shape = Square | Circle;
-
-export function calculateArea(s: Shape) {
+export function calculateArea(s: Square | Circle) {
     switch (s.shapeType) {
         case 'square': return s.size * s.size;
         case 'circle': return Math.PI * s.radius ** 2;

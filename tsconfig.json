@@ -4,7 +4,8 @@
         "module": "amd",
         "noImplicitAny": true,
         "noImplicitReturns": true,
-        "alwaysStrict": true
+        "alwaysStrict": true,
+        "experimentalDecorators":  true
     },
     "compileOnSave": true
 }

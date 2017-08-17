@@ -1,6 +1,6 @@
 # TypeScript Best Features
 
-this-type.ts
+advanced-type.ts
 
 implicit-module.ts
 
@@ -8,7 +8,7 @@ control-flow-analysis.ts
 
 structural-typing.ts
 
-custom-module.d.ts
+typings/custom-module.d.ts
 
 load-custom-module.ts
 
@@ -23,3 +23,5 @@ https://www.youtube.com/watch?v=d1f6VBmWg6o
 https://basarat.gitbooks.io/typescript/content/docs/getting-started.html
 
 https://www.typescriptlang.org/docs/handbook/basic-types.html
+
+
