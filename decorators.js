@@ -1,4 +1,3 @@
-"use strict";
 // This feature requires `experimentalDecorators` option in `tsconfig.json`
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -6,14 +5,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-function attrConstraint(classConstructor) {
-    classConstructor.isAttr1Registered = true;
-}
-let Foo = class Foo {
-};
-Foo = __decorate([
-    attrConstraint
-], Foo);
-console.log(Foo);
-// Error.
-console.log(Foo.isAttr1Registered);
+define(["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    function attrConstraint(classConstructor) {
+        classConstructor.isAttr1Registered = true;
+    }
+    let Foo = class Foo {
+    };
+    Foo = __decorate([
+        attrConstraint
+    ], Foo);
+    console.log(Foo);
+    // Error.
+    console.log(Foo.isAttr1Registered);
+});

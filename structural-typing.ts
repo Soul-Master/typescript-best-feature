@@ -29,3 +29,5 @@ class MyCircle2 implements Circle {
 
 // OK
 calculateArea(new MyCircle2());
+
+export { };
